@@ -17,8 +17,9 @@ const UserDetails = () => {
             console.log(error)
         }
     }
+    getData()
     useEffect(() => {
-        getData()
+        
     }, [deleteData])
 
     const handleDelete = async (id) => {
